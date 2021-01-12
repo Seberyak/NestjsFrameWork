@@ -1,6 +1,6 @@
-import { Controller, Post } from '@nestjs/common';
-import { wValidatedArg } from '../decorators/validation';
-import { IUser, UserSchema } from '../../../schemas/auth/helper-schemas';
+import { Controller, Post } from "@nestjs/common";
+import { wValidatedArg } from "../decorators/validation";
+import { IUser, UserSchema } from "../../../schemas/auth/helper-schemas";
 
 @Controller("api/auth")
 export class AuthController {
