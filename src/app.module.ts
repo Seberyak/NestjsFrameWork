@@ -4,8 +4,8 @@ import { AppService } from './core/services/app';
 import { AuthController } from './api/auth/controller';
 
 @Module({
-  imports: [],
-  controllers: [AppController, AuthController],
-  providers: [AppService],
+	imports: [],
+	controllers: [AppController, AuthController],
+	providers: [AppService],
 })
 export class AppModule {}
